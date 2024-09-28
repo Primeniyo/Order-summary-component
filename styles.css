@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  font-family: "Red Hat Display";
+}
+.container {
+  background-color: whitesmoke;
+  width: 400px;
+  height: 400px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+body img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+button {
+  height: 40px;
+  width: 300px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.card {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 300px;
+  padding-left: 20px;
+  background-color: azure;
+  border-radius: 10px;
+  margin: 10px;
+}
+.Annual-plan {
+  font-size: 20px;
+  font-weight: bold;
+}
+.price {
+  font-size: 15px;
+}
